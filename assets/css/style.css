@@ -6,30 +6,66 @@
   font-family: "Great Vibes", sans-serif;
   font-size: 44px;
   letter-spacing: 3px;
-  margin-right: 0.5rem;
   padding-bottom: 0;
 }
 
 /*------------------------------Navbar */
 
 .navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,0.2)
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-right: 10px;
 }
 
 .navbar-dark .navbar-brand {
-    color: #fafafa;
+  color: #fff;
 }
 
 .navbar .navbar-toggler {
-    border: 0;
-    border-radius: 0;
+  border: 0;
+  border-radius: 0;
 }
 
 .nav-item {
-    font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.navbar-nav {
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.navbar-collapse {
+  margin-top: 0.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(235, 235, 235, 0.75);
+}
+/*------------------------------Backgrounds */
+
+.bg-container {
+  height: 100vh;
+  background: url("../images/wedding-bride.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  position: relative;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 00px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
 }
