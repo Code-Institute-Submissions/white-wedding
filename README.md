@@ -37,6 +37,7 @@ When we learn back end and gets further into the course, I naturally want to dev
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 - [HTML] This project uses HTML as its base language.
 - [Bootstrap](https://bootstrap.com) This project uses Bootstrap for default styling.
+- [JavaScript/jQuery] Calm down. I'm not that advanced yet. But to manage to get some responsive bits working, I added the jQuery-links from Bootstrap components' start page.
 - [CSS] This project uses CSS for bits that require personal styling, overwriting the more conventional Bootstrap styles.
 - [FontAwesome](https://fontawesome.com) This project uses Font Awesome to provide some extra glow with cool, free icons.
 - [GoogleFonts](https://fonts.google.com) This project uses three fonts (Great Vibes, Raleway & Roboto) found on the Google Fonts website.
@@ -84,3 +85,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from my friend Madeleine, who is training to become a wedding planner. Workwise, my inspiration came from earlier projects made with you at the Code Institute.
+- Throughout my project, I have researched by visiting other wedding planning websites, to find inspiration.
