@@ -38,7 +38,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [HTML] This project uses HTML as its base language.
 - [Bootstrap](https://bootstrap.com) This project uses Bootstrap for default styling.
 - [CSS] This project uses CSS for bits that require personal styling, overwriting the more conventional Bootstrap styles.
-- [FontAwesome] This project uses Font Awesome to provide some extra glow with cool, free icons.
+- [FontAwesome](https://fontawesome.com) This project uses Font Awesome to provide some extra glow with cool, free icons.
+- [GoogleFonts](https://fonts.google.com) This project uses three fonts (Great Vibes, Raleway & Roboto) found on the Google Fonts website.
 
 ## Testing
 
