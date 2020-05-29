@@ -7,9 +7,6 @@
   font-size: 42px;
   letter-spacing: 3px;
   padding-bottom: 0;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
 }
 
 /*------------------------------Navbar */
@@ -45,7 +42,7 @@
 }
 
 .nav-item-border {
-    border-left: 1px solid;
+  border-left: 1px solid;
 }
 
 .navbar-collapse {
@@ -53,19 +50,24 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(235, 235, 235, 0.75);
+  color: rgba(235, 235, 235, 0.75);
 }
 /*------------------------------Backgrounds */
 
 .bg-container {
   height: 100vh;
-  background: url("../images/wedding-bride.jpeg") no-repeat center center fixed;
+  background: url("../images/wedding-bride.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
 
   position: relative;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .opaque-overlay {
@@ -74,21 +76,23 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /*----------------------------Hover.css */
 
-
 .hvr-sweep-to-bottom:before {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   height: 100%;
 }
 
 /*----------------------------Media Queries */
 
-@media(max-width: 576px) {
-    .nav-item-border {
-        border-left: none;
-    }
+@media (max-width: 576px) {
+  .nav-item {
+      margin: 0px 10px;
+  }
+  .nav-item-border {
+    border-left: none;
+  }
 }
