@@ -9,6 +9,31 @@
   padding-bottom: 0;
 }
 
+/*------------------------------Backgrounds */
+
+.bg-main {
+  height: 100vh;
+  background: url("../images/wedding-bride.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.75s ease-in;
+  -moz-transition: all 0.75s ease-in;
+  -webkit-transition: all 0.75s ease-in;
+}
+
 /*------------------------------Navbar */
 
 .navbar {
@@ -52,31 +77,13 @@
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(235, 235, 235, 0.75);
 }
-/*------------------------------Backgrounds */
 
-.bg-container {
-  height: 100vh;
-  background: url("../images/wedding-bride.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+/*----------------------------Footer */
 
-  position: relative;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-}
-
-.opaque-overlay {
-  position: absolute;
-  top: 00px;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+#footer-details {
+    height: 5%;
+    width: 100%;
+  border-top: 1px solid white;
 }
 
 /*----------------------------Hover.css */
@@ -90,8 +97,9 @@
 
 @media (max-width: 576px) {
   .nav-item {
-      margin: 0px 10px;
+    margin: 0px 10px;
   }
+
   .nav-item-border {
     border-left: none;
   }
