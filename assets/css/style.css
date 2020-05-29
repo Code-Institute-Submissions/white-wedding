@@ -85,27 +85,10 @@
   height: 100%;
 }
 
-/*----------------------------Media Queries 
+/*----------------------------Media Queries */
 
 @media(max-width: 576px) {
-    .nav-item {}
-}
-
-@media(min-width: 992px) {
-    .nav-item {
-        font-size: 24px;
-        padding: 0px 90px;
+    .nav-item-border {
+        border-left: none;
     }
 }
-
-@media(min-width: 1200px) {
-    .logo {
-        padding-right: 20px;
-    }
-    
-    .nav-item {
-        padding: 0px 112.5px;
-    }
-}
-
-*/
