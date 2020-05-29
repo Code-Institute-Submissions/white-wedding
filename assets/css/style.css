@@ -34,6 +34,16 @@
   -webkit-transition: all 0.75s ease-in;
 }
 
+.bg-color-footer {
+  background-color: #777777;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 /*------------------------------Navbar */
 
 .navbar {
@@ -80,10 +90,27 @@
 
 /*----------------------------Footer */
 
-#footer-details {
-    height: 5%;
-    width: 100%;
-  border-top: 1px solid white;
+footer {
+  height: 10px;
+}
+
+.list-inline {
+  margin-bottom: 0;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links li {
+  display: inline;
+  text-decoration-style: none;
+}
+
+.social-links i {
+  font-size: 140%;
+  padding: 2% 5%;
+  color: #fafafa;
 }
 
 /*----------------------------Hover.css */
