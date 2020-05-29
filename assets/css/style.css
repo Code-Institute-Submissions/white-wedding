@@ -4,9 +4,10 @@
 
 .logo {
   font-family: "Great Vibes", sans-serif;
-  font-size: 42px;
+  font-size: 36px;
   letter-spacing: 3px;
   padding-bottom: 0;
+  margin-right: 0;
 }
 
 /*------------------------------Backgrounds */
@@ -49,6 +50,7 @@
 /*------------------------------Navbar */
 
 .navbar {
+  top: 5px;
   margin-bottom: 0;
   border: 0;
   width: 100%;
@@ -125,11 +127,21 @@ footer {
 /*----------------------------Media Queries */
 
 @media (max-width: 576px) {
+  .navbar-nav {
+    padding-left: 0px;
+  }
   .nav-item {
+    font-size: 16px;
     margin: 0px 10px;
   }
 
   .nav-item-border {
     border-left: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .logo {
+    font-size: 44px;
   }
 }
