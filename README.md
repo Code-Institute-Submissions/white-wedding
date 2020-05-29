@@ -6,8 +6,7 @@ Your search of a brand new website is over. Here is everything you need for your
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
+This is a website for a wedding planner, built because I have a friend who is starting up her own business in this very occupation. The thought is that the site should represent her and others who want to sell the concept of happily ever after through big, beautiful pictures and clean, white design.
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
@@ -19,10 +18,11 @@ We have four different pages on this site:
 index.html acts as the home page.
 portfolio.html has a collage of happy wedding pictures to get potential customers fired up. 
 about.html provides information about the wedding planner and his/her background. Why he/she is the perfect person for the job.
-contact.html gives potential customers or collaborators the chance to contact the wedding planner via the site itself.
+contact.html will give potential customers or collaborators the chance to contact the wedding planner via the site itself.
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- Feature 1 - Navigation through the four pages. The navigation bar lets users navigate freely between the four pages and shows which is currently active through highlighting.
+- Feature 2 - 
 - ...
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
