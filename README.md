@@ -28,7 +28,7 @@ contact.html will give potential customers or collaborators the chance to contac
 ### Existing Features
 
 - Feature 1 - Navigation through the four pages. The navigation bar lets users navigate freely between the four pages and shows which is currently active through highlighting.
-- Feature 2 -
+- Feature 2 - Footer navigates to social media links outside of the webpage.
 - ...
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
@@ -83,6 +83,8 @@ In particular, you should provide all details of the differences between the dep
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## Credits
+
+Inspiration from the navigation bar came from the Whiskey Drop-project. That is also where I found the idea to use a full-width background picture with an opaque overlay for the home page. Inspo for the footer came from the Love Running-project.
 
 ### Content
 
