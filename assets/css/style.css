@@ -58,10 +58,6 @@
   height: 60px;
 }
 
-.navbar-dark .navbar-brand {
-  color: #fff;
-}
-
 .navbar .navbar-toggler {
   border: 0;
   border-radius: 0;
@@ -133,11 +129,15 @@ footer {
   }
   .nav-item {
     font-size: 16px;
-    margin: 0px 10px;
+    margin-left: 5px;
   }
 
   .nav-item-border {
     border-left: none;
+  }
+  
+  .hvr-sweep-to-bottom:before {
+      width: 24vw;
   }
 }
 
