@@ -91,27 +91,23 @@
 
 /*----------------------------Footer */
 
-footer {
-  height: 10px;
+.footer-details {
+  bottom: 0;
 }
 
-.list-inline {
-  margin-bottom: 0;
+.list-inline-item {
+    padding: 0;
 }
 
 .social-links {
-  text-align: center;
-}
-
-.social-links li {
-  display: inline;
-  text-decoration-style: none;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .social-links i {
   font-size: 140%;
-  padding: 2% 5%;
   color: #fafafa;
+  padding: 10px;
 }
 
 /*----------------------------Hover.css */
@@ -135,9 +131,9 @@ footer {
   .nav-item-border {
     border-left: none;
   }
-  
+
   .hvr-sweep-to-bottom:before {
-      width: 24vw;
+    width: 24vw;
   }
 }
 
