@@ -60,6 +60,25 @@
   -o-background-size: cover;
 }
 
+#bg-zindex {
+    z-index: -1;
+}
+
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  z-index: 1;
+}
+
+#photo img {
+  width: 100%;
+}
+
 .opaque-overlay {
   position: absolute;
   top: 0;
@@ -107,7 +126,7 @@
 
 .nav-item {
   font-family: "Raleway", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 20px;
   color: #fff;
   padding: 0px 15px;
@@ -120,6 +139,7 @@
 
 .navbar-collapse {
   margin-top: 0.5rem;
+  z-index: 2;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -127,6 +147,20 @@
 }
 
 /*----------------------------Footer */
+
+footer {
+    width: 100%;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+#footer-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .list-inline {
   margin-top: 0.5rem;
@@ -136,6 +170,10 @@
 .list-inline-item {
   padding: 0;
   margin: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
 }
 
 .social-links {
@@ -156,6 +194,7 @@
 }
 
 /*----------------------------Media Queries */
+
 
 @media (max-width: 576px) {
   .navbar-nav {
@@ -181,13 +220,8 @@
   }
 }
 
-.navbar-main {
-  margin-top: 25px;
-  margin-left: 15px;
-}
-
 /*----------------------------Animations */
-
+/*
 .bg-animation {
   animation-name: bg-zoom;
   animation-duration: 5s;
