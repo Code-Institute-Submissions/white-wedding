@@ -12,10 +12,22 @@
 
 /*------------------------------Backgrounds */
 
-.bg-main {
+.bg-index {
   height: 100vh;
   width: 100%;
   background: url("../images/wedding-bride.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.bg-contact {
+  height: 100vh;
+  width: 100%;
+  background: url("../images/wedding-sunset.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,15 +105,20 @@
 
 .footer-details {
   bottom: 0;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .list-inline-item {
-    padding: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .social-links {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .social-links i {
