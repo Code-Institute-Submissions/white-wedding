@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;200;300;400;500;600;700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -34,10 +34,6 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
-  animation-name: bg-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
 }
 
 .bg-about {
@@ -64,15 +60,6 @@
   -o-background-size: cover;
 }
 
-@keyframes bg-zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.05);
-  }
-}
-
 .opaque-overlay {
   position: absolute;
   top: 0;
@@ -95,6 +82,7 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  overflow: visible;
 }
 
 /*------------------------------Navbar */
@@ -141,8 +129,8 @@
 /*----------------------------Footer */
 
 .list-inline {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .list-inline-item {
@@ -190,5 +178,27 @@
 @media (min-width: 576px) {
   .logo {
     font-size: 44px;
+  }
+}
+
+.navbar-main {
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+/*----------------------------Animations */
+
+.bg-animation {
+  animation-name: bg-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bg-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
   }
 }
