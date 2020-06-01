@@ -94,6 +94,12 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.3);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   transition: all 0.75s ease;
   -moz-transition: all 0.75s ease;
   -webkit-transition: all 0.75s ease;
