@@ -82,12 +82,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: cover;
+  height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   transition: all 0.75s ease;
   -moz-transition: all 0.75s ease;
   -webkit-transition: all 0.75s ease;
+  z-index: 3;
 }
 
 #photo {
@@ -105,21 +106,6 @@
 #photo img {
   width: 100%;
   border: 0;
-}
-
-#opaque-overlay-photos {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  transition: all 0.75s ease;
-  -moz-transition: all 0.75s ease;
-  -webkit-transition: all 0.75s ease;
-  z-index: 3;
 }
 
 .bg-color-footer {
