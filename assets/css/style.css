@@ -36,7 +36,7 @@
   -o-background-size: cover;
 }
 
-#bg-portfolio {
+#bg-gallery {
   background: url("../images/champagne-bubbles.jpg");
   background-size: 25%;
   background-repeat: repeat;
