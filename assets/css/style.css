@@ -37,65 +37,53 @@
 }
 
 #bg-portfolio {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: url("../images/wedding-sunset.jpg");
-  background-position: center;
+  background: url("../images/champagne-bubbles.jpg");
+  background-size: 25%;
   background-repeat: repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  z-index: -1;
-}
-
-.bg-about {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  border: 0;
-  background: url("../images/wedding-sweetness.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  
   z-index: -1;
 }
 
-.bg-contact {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: url("../images/wedding-bride.jpeg");
+.bg-about  {
+  height: 100vh;
+  background: url("../images/wedding-bride.jpg") no-repeat top left fixed;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden;
+
+  position: relative;
+  z-index: -1;
+}
+
+.bg-contact  {
+  height: 100vh;
+  background: url("../images/wedding-bride.jpg") no-repeat top left fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  position: relative;
+  z-index: -1;
 }
 
 .opaque-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  height: 100%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
