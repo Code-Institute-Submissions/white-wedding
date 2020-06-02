@@ -49,30 +49,28 @@
   z-index: -1;
 }
 
-.bg-about  {
+.bg-about {
   height: 100vh;
-  background: url("../images/wedding-bride.jpg") no-repeat top left fixed;
+  width: 100%;
+  background: url("../images/wedding-sweetness.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
-  position: relative;
-  z-index: -1;
 }
 
 .bg-contact  {
   height: 100vh;
-  background: url("../images/wedding-bride.jpg") no-repeat top left fixed;
+  width: 100%;
+  background: url("../images/wedding-bride.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
-  position: relative;
-  z-index: -1;
 }
 
 .opaque-overlay {
