@@ -169,11 +169,10 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 200;
-  text-align: center;
 
-  background-color: rgba(248, 4, 0, 0.045);
-  height: 200px;
-  width: 200px;
+  background-color: rgba(248, 4, 0, 0.027);
+  height: 175px;
+  width: 175px;
   color: #fafafa8c;
   padding: 10px;
 
@@ -189,7 +188,6 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 200;
-  text-align: center;
 
   background-color: rgba(248, 4, 0, 0.045);
   height: 150px;
@@ -201,6 +199,21 @@
   bottom: 20%;
   left: 15%;
   z-index: 4;
+}
+
+/*----------------------------Contact Form */
+
+#section-position {
+    position: absolute;
+    top: 80px;
+    overflow: visible;
+    z-index: 4;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 /*----------------------------Footer */
