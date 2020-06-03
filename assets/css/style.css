@@ -164,14 +164,6 @@
 
 /*----------------------------Text styles */
 
-#container-big {
-    
-}
-
-#container-small {
-    
-}
-
 #cover-text {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -180,17 +172,13 @@
   text-align: center;
 
   background-color: rgba(248, 4, 0, 0.045);
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
+  height: 200px;
+  width: 200px;
   color: #fafafa8c;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding: 10px;
 
-  top: 110px;
-  right: 15px;
+  top: 20%;
+  right: 10%;
 
   position: absolute;
   z-index: 4;
@@ -204,18 +192,14 @@
   text-align: center;
 
   background-color: rgba(248, 4, 0, 0.045);
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+  height: 150px;
+  width: 150px;
   color: #fafafa8c;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
-  padding-left: 4vw;
-  padding-right: 4vw;
+  padding: 10px;
   
   position: absolute;
-  bottom: 50px;
-  left: 20px;
+  bottom: 20%;
+  left: 15%;
   z-index: 4;
 }
 
