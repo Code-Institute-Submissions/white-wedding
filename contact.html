@@ -71,7 +71,7 @@
             Got a wedding coming up?
           </h3>
           <h5 class="nav-item text-center">
-            I will make all of your fairytales come true!
+            Choose your date and I will make all of your fairytales come true!
           </h5>
           <div class="center-form">
             <form>
@@ -91,21 +91,11 @@
                 placeholder="Email"
                 required
               />
-              <label for="wedding" class="nav-item">Choose the selected dates for your magic weekend: </label>
               <input
                 type="date"
-                id="start"
+                class="form-control"
+                id="date"
                 name="wedding"
-                value="2020-07-22"
-                min="2020-01-01"
-                placeholder="Date"
-                required
-              />
-              <input
-                type="date"
-                id="stop"
-                name="wedding"
-                value="2020-07-24"
                 min="2020-01-01"
                 placeholder="Date"
                 required
@@ -114,13 +104,14 @@
                 rows="5"
                 name="projectsummary"
                 id="projectsummary"
-                class="form-control"
+                
+                class="form-control form-style"
                 placeholder="Project description"
                 required
               ></textarea>
               <div class="form-row text-center">
                 <div class="col">
-                  <button type="submit" class="btn btn-success">
+                  <button type="submit" class="btn btn-danger">
                     Send Wedding Request
                   </button>
                 </div>
