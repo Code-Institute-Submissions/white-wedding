@@ -19,18 +19,24 @@ I had misunderstood and thought it was enough to git commit after a few changes.
 
 ## Features
 
-We have four different pages on this site:
-index.html acts as the home page.
-portfolio.html has a collage of happy wedding pictures to get potential customers fired up.
-about.html provides information about the wedding planner and his/her background. Why he/she is the perfect person for the job.
-contact.html will give potential customers or collaborators the chance to contact the wedding planner via the site itself.
+We have a logo up in the right corner and a navigation bar in the top right. We also have a footer with social media-links in the bottom. These three features are permanent and can be seen on each page on the website. The navbar and logo have transparent backgrounds and are featured on top of the main page background.
+
+
+In total we have four different pages on this site:
+index.html acts as the home page. It is supposed to lure potential customers in by being clean and inviting. It also has quotes from previous, happy customers which are responsive and can be seen on any platform.
+gallery.html has a collage of happy wedding pictures to get potential customers fired up.
+about.html provides information about the wedding planner and his/her background. Why he/she is the perfect person for the job. It also features a timeline with important events in the planner's own life. You know, for a personal touch.
+contact.html will give potential customers or collaborators the chance to contact the wedding planner with a form, where you can put in information about the upcoming wedding itself.
 
 ### Existing Features
 
 - Feature 1 - Navigation through the four pages. The navigation bar lets users navigate freely between the four pages and shows which is currently active through highlighting.
-- Feature 2 - Footer navigates to social media links outside of the webpage.
-- ...
-
+- Feature 2 - The items on the navbar all have an active class which shines brighter when you are on the page in question, as a navigation help.
+- Feature 3 - The navbar collapses when featured on a smaller, cellphonesque screen.
+- Feature 4 - The footer navigates to social media links outside of the webpage. They open in a new tab.
+- Feature 5 - The main background images on each site zooms in just ever so slightly when you arrive at each page, just to give a more slick look.
+- Feature 6 - All pages have a slightly dark overlay, to contrast the photos against the bright-coloured logo and navbar.
+- Feature 7 - 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -49,6 +55,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [CSS] This project uses CSS for bits that require personal styling, overwriting the more conventional Bootstrap styles.
 - [FontAwesome](https://fontawesome.com) This project uses Font Awesome to provide some extra glow with cool, free icons.
 - [GoogleFonts](https://fonts.google.com) This project uses three fonts (Great Vibes, Raleway & Roboto) found on the Google Fonts website.
+- [Google Image Search](https://google.com) All images are from Google and are of the kind which are allowed to be used and altered. I don't want no copyright infringement problems here, y'all.
 
 ## Testing
 
