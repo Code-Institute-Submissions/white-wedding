@@ -7,7 +7,7 @@
 }
 
 nav {
-    position: fixed;
+  position: fixed;
 }
 
 /*------------------------------Logo */
@@ -21,13 +21,6 @@ nav {
 }
 
 /*------------------------------Backgrounds */
-
-#bg-index-outer {
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
 
 .bg-index {
   height: 100vh;
@@ -50,23 +43,28 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  
+
   z-index: -1;
 }
 
 .bg-about {
-  height: 100vh;
-  width: 100%;
   background: url("../images/wedding-sweetness.jpg");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: -1;
 }
 
-.bg-contact  {
+.bg-contact {
   height: 100vh;
   width: 100%;
   background: url("../images/wedding-bride.jpg");
@@ -131,7 +129,7 @@ nav {
   border: 0;
   width: 100%;
   height: 60px;
-  z-index: 3;
+  z-index: 10;
 }
 
 .navbar .navbar-toggler {
@@ -159,7 +157,7 @@ nav {
 
 .navbar-collapse {
   margin-top: 0.5rem;
-  z-index: 4;
+  z-index: 10;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -198,7 +196,7 @@ nav {
   width: 150px;
   color: #fafafa8c;
   padding: 10px;
-  
+
   position: absolute;
   bottom: 20%;
   left: 15%;
@@ -206,57 +204,59 @@ nav {
 }
 
 /*----------------------------Contact Form */
-
 #section-position {
-    position: absolute;
-    top: 15%;
-    overflow: visible;
-    z-index: 4;
+  position: absolute;
+  top: 15%;
+  z-index: 4;
+}
+
+.section-column {
+  margin-bottom: 15%;
 }
 
 .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 60vw;
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 60vw;
 }
 
 .form-style {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .btn-danger {
-    background-color: #f40123;
-    margin-top: 10px;
+  background-color: #f40123;
+  margin-top: 10px;
 }
 
 .btn-danger:hover {
-    color: #e731a2;
+  color: #e731a2;
 }
 
 /*----------------------------Footer */
 
 #footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    margin: 0;
-    z-index: 10;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: 0;
+  z-index: 10;
 }
 .footer-details {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    margin: 0;
-    z-index: 10;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin: 0;
+  z-index: 10;
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
 
 #footer-padding {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .list-inline {
@@ -270,7 +270,7 @@ nav {
 }
 
 .list-inline-item:not(:last-child) {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .social-links {
@@ -284,52 +284,91 @@ nav {
   padding: 10px;
 }
 
-/*----------------------------Work History */
+/*----------------------------Life History */
 
 .history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
+  color: #fafafa;
+  font-weight: 200;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.skills-heading {
+  font-weight: 200;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
+  padding: 3.5em 2em 0em 2em;
+  position: relative;
+  color: #fafafa;
+  border-right: 1px solid;
 }
 
 .timeline-item p {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+  text-align: right;
 }
 
 .timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
+  content: attr(data-dates);
+  position: absolute;
+  right: 2.5em;
+  top: 3em;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
 }
 
 .timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.6em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background-color: #fafafa;
+  width: 12px;
+  height: 12px;
+  display: block;
+  top: 2.6em;
+  position: absolute;
+  right: -6px;
+  border-radius: 12px;
+  content: "";
+  background-color: #fafafa;
+}
+
+.h5,
+h5 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .history-items {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.margaret {
+  border: 3px dotted;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.about-me {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 110%;
+  background-color: transparent;
+  text-align: right;
+}
+
+.about-me-heading {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 200;
 }
 
 /*----------------------------Hover.css */
@@ -342,7 +381,7 @@ nav {
 /*----------------------------Media Queries */
 
 @media screen and (max-width: 960px) {
-      #photo {
+  #photo {
     column-count: 3;
   }
 }
