@@ -214,9 +214,8 @@ nav {
   top: 25%;
   left: 10%;
   right: 10%;
-  z-index: 4;
+  z-index: 2;
 }
-
 
 .contact-heading {
   font-family: "Raleway", sans-serif;
@@ -224,8 +223,7 @@ nav {
   font-weight: 300;
   padding: 0;
   margin: 0;
-  max-width: 60vw;
-  z-index: 4;
+  z-index: 2;
 }
 
 .contact-class {
@@ -233,10 +231,8 @@ nav {
   color: #fafafa;
   font-weight: 300;
   padding: 0;
-  margin: 0;
-  text-align: center;
-  max-width: 60vw;
-  z-index: 4;
+  margin: 5px 0px;
+  z-index: 2;
 }
 
 .section-column {
@@ -325,19 +321,20 @@ nav {
 
 .history-heading {
   color: #fafafa;
-  font-weight: 200;
+  font-weight: 300;
   text-align: right;
   text-transform: uppercase;
 }
 
 .skills-heading {
+  color: #fafafa;
   font-weight: 200;
   text-align: right;
   text-transform: uppercase;
 }
 
 .timeline-item {
-  padding: 3.5em 2em 0em 2em;
+  padding: 4em 2em 0em 2em;
   position: relative;
   color: #fafafa;
   border-right: 1px solid;
@@ -389,24 +386,27 @@ h5 {
 }
 
 .margaret {
-  border: 3px dotted;
+  border: 3px dotted #fafafa;
   max-height: 50%;
   max-width: 50%;
+  margin-top: 30px;
 }
 
 .about-me {
-  width: 100%;
   font-family: "Raleway", sans-serif;
-  font-size: 110%;
   background-color: transparent;
+  color: #fafafa;
   text-align: right;
+  padding-left: 5%;
 }
 
 .about-me-heading {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 300;
+  color: #fafafa;
+  font-size: 24px;
 }
 
 /*----------------------------Hover.css */
@@ -450,7 +450,7 @@ h5 {
 
 @media (min-width: 350px) {
   .bg-about {
-    height: 200%;
+    height: 220%;
   }
 }
 
@@ -470,6 +470,10 @@ h5 {
   .history-items {
     margin-right: 0px;
   }
+}
+
+.about-me {
+  padding-left: 20%;
 }
 
 /*----------------------------Animations */
