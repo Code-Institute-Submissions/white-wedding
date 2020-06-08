@@ -56,7 +56,7 @@ As stated above. When we learn back end and gets further into the course, I natu
 - [CSS] This project uses CSS for bits that require personal styling, overwriting the more conventional Bootstrap styles.
 - [Bootstrap](https://bootstrap.com) This project uses Bootstrap for default styling.
 - [JavaScript/jQuery] Calm down. I'm not that advanced yet. But to manage to get some responsive bits working, I added the jQuery-links from Bootstrap components' start page.
-- [FontAwesome](https://fontawesome.com) I ended up discarding my Font Awesome icons at the last minute, since I found them to be unnecessary clutter on this specific site.
+- [FontAwesome](https://fontawesome.com) I ended up only using FontAwesome for the social media-links in the footer. But there, they were essential!
 - [GoogleFonts](https://fonts.google.com) This project uses three fonts (Great Vibes, Raleway & Roboto) found on the Google Fonts website.
 - [Google Image Search](https://google.com) All images are from Google and are of the kind which are allowed to be used and altered. I don't want no copyright infringement problems here, y'all.
 
