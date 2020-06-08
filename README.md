@@ -4,6 +4,8 @@ Thinking of becoming a wedding planner?
 
 Your search of a brand new website is over. Here is everything you need for your business to get a flying start!
 
+https://antonrasegard.github.io/white-wedding/
+
 ## UX
 
 This is a website for a wedding planner, built because I have a friend who is starting up her own business in this very occupation. The thought is that the site should represent her and others who want to sell the concept of happily ever after through big, beautiful pictures and clean, white design.
@@ -17,6 +19,8 @@ Lastly, every wedding prospect needs to have the possibility to contact the wedd
 On every page you'll see the navbar, the logo and also a footer at the bottom, which will lead you to the wedding planner's various social media accounts. Transparency is key and the more connection you sense will increase your likelihood of hiring this specific planner over other ones with similar qualifications.
 
 As this is my first solo project, my wireframe is limited. But I will add a link to a picture of it, since I actually sketched up the design on an empty envelope. I had the basic design quite clear for me from the start. I am happy to say that I was able to follow my wireframe and come up with a similar end result. Yey me! 
+
+Wireframe: https://imgur.com/zi2ht0j
 
 ## Explanation for non-existant Git push in the start of the project
 
@@ -77,7 +81,7 @@ So yes, all the credits here go to Code Institute - my fabulous teachers who hav
 ### Content
 
 The content is made up by me, but some of the information added is based on my friend, the wedding planner, and her life.
-It's been a wild ride creating this. Many hairs have been pulled in this annoying process of getting things to work as you wish. Still, I wouldn't have it any other way. There have been problems constantly, even though I took a lot of inspiration from earlier trial projects we have done during the modules. It's one thing following a path set-up by tutors, with given instructors. A whole other business giving life to an original idea. Anyway, it should be working now. If there are issues, they should be minor at the moment. I have searched high
+It's been a wild ride creating this. Many hairs have been pulled in this annoying process of getting things to work as you wish. Still, I wouldn't have it any other way. There have been problems constantly, even though I took a lot of inspiration from earlier trial projects we have done during the modules. It's one thing following a path set-up by tutors, with given instructors. A whole other business giving life to an original idea. Anyway, it should be working now. If there are issues, they should be minor at the moment. I have done all I can to make it a fully functional site, testing on different screen sizes. Often I have figured out the problems through using my cellphone, which is quite narrow in width. I look forward to hearing what you think about my first website!
 
 ### Media
 
