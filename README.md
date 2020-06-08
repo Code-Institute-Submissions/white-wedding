@@ -77,6 +77,7 @@ So yes, all the credits here go to Code Institute - my fabulous teachers who hav
 ### Content
 
 The content is made up by me, but some of the information added is based on my friend, the wedding planner, and her life.
+It's been a wild ride creating this. Many hairs have been pulled in this annoying process of getting things to work as you wish. Still, I wouldn't have it any other way. There have been problems constantly, even though I took a lot of inspiration from earlier trial projects we have done during the modules. It's one thing following a path set-up by tutors, with given instructors. A whole other business giving life to an original idea. Anyway, it should be working now. If there are issues, they should be minor at the moment. I have searched high
 
 ### Media
 

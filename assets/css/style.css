@@ -55,7 +55,7 @@ nav {
 #bg-about {
   background: url("../images/wedding-sweetness.jpg");
   background-position: center;
-  height: 250%;
+  height: 275%;
   width: 100%;
   background-size: cover;
   -webkit-background-size: cover;
@@ -324,7 +324,7 @@ h5 {
 /*------------------------------------------About page - miscellaneous */
 
 .section-column {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 #about-position {
@@ -500,6 +500,7 @@ h5 {
 
 .about-me {
   padding-left: 10%;
+  margin-bottom: 20px;
 }
 
 /*------------------------------------------Animations */
