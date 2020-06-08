@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -50,11 +50,13 @@ nav {
 .bg-about {
   background: url("../images/wedding-sweetness.jpg");
   background-position: center;
+  height: 250%;
+  width: 100%;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -140,6 +142,7 @@ nav {
 .navbar-nav {
   padding-left: 15px;
   margin-bottom: 10px;
+  z-index: 10;
 }
 
 .nav-item {
@@ -149,6 +152,7 @@ nav {
   color: #fff;
   padding: 0px 15px;
   text-decoration: none;
+  z-index: 10;
 }
 
 .nav-item-border {
@@ -162,6 +166,7 @@ nav {
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(235, 235, 235, 0.75);
+  z-index: 10;
 }
 
 /*----------------------------Text styles */
@@ -204,20 +209,46 @@ nav {
 }
 
 /*----------------------------Contact Form */
-#section-position {
+#contact-position {
   position: absolute;
-  top: 15%;
+  top: 25%;
+  left: 10%;
+  right: 10%;
+  z-index: 4;
+}
+
+
+.contact-heading {
+  font-family: "Raleway", sans-serif;
+  color: #fafafa;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  max-width: 60vw;
+  z-index: 4;
+}
+
+.contact-class {
+  font-family: "Raleway", sans-serif;
+  color: #fafafa;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  max-width: 60vw;
   z-index: 4;
 }
 
 .section-column {
-  margin-bottom: 15%;
+  margin-bottom: 15px;
 }
 
 .center-form {
   padding-top: 10px;
   margin: 0 auto;
   max-width: 60vw;
+  text-align: center;
+  z-index: 4;
 }
 
 .form-style {
@@ -286,6 +317,12 @@ nav {
 
 /*----------------------------Life History */
 
+#about-position {
+  position: absolute;
+  top: 10%;
+  z-index: 4;
+}
+
 .history-heading {
   color: #fafafa;
   font-weight: 200;
@@ -319,7 +356,7 @@ nav {
   right: 2.5em;
   top: 3em;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 0.8em;
   padding: 0;
@@ -348,6 +385,7 @@ h5 {
 
 .history-items {
   margin-bottom: 30px;
+  margin-right: 20px;
 }
 
 .margaret {
@@ -358,7 +396,7 @@ h5 {
 
 .about-me {
   width: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 110%;
   background-color: transparent;
   text-align: right;
@@ -392,7 +430,7 @@ h5 {
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .navbar-nav {
     padding-left: 0px;
   }
@@ -410,9 +448,27 @@ h5 {
   }
 }
 
+@media (min-width: 350px) {
+  .bg-about {
+    height: 200%;
+  }
+}
+
 @media (min-width: 576px) {
   .logo {
     font-size: 44px;
+  }
+
+  .section-column {
+    margin-bottom: 0px;
+  }
+
+  .bg-about {
+    height: 100%;
+  }
+
+  .history-items {
+    margin-right: 0px;
   }
 }
 
